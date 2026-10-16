@@ -1,0 +1,50 @@
+[
+  {
+    "id": "thread",
+    "title": "一针一线，三代人的心意",
+    "type": "艺术化改编",
+    "source": "design",
+    "verified": false,
+    "publishable": true,
+    "frames": [
+      {
+        "title": "灯下 · 起针",
+        "image": "image3.webp",
+        "text": "夜色渐深，灯下仍有细微的针线声。外婆把想说的话，慢慢缝进一方布里。"
+      },
+      {
+        "title": "手中 · 成花",
+        "image": "image2.webp",
+        "text": "花朵在指尖盛开。没有写下的叮咛，化作一针一线，留在柔软的织物上。"
+      },
+      {
+        "title": "背上 · 看世界",
+        "image": "image4.webp",
+        "text": "后来，孩子伏在母亲背上。山路很长，而最初的世界，始终贴着亲人的心跳。"
+      },
+      {
+        "title": "此刻 · 续一针",
+        "image": "image6.webp",
+        "text": "当我们再看这片锦绣，也在接过一段记忆。愿手艺被看见，愿牵挂有回声。"
+      }
+    ]
+  },
+  {
+    "id": "folklore",
+    "title": "外婆的背带歌与花婆信仰",
+    "type": "待考证民俗资料",
+    "source": "design",
+    "verified": false,
+    "publishable": false,
+    "frames": []
+  },
+  {
+    "id": "reading",
+    "title": "一方背带，如何连接一家人？",
+    "type": "所提供文献的阅读摘述",
+    "source": "lv-reference",
+    "verified": false,
+    "publishable": false,
+    "frames": []
+  }
+]
