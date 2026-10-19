@@ -1,0 +1,102 @@
+export const ISLAND = {
+  x: 0,
+  z: -41,
+  width: 4.2,
+  depth: 2.35,
+  baseHeight: 0.78,
+  glassTop: 2.72,
+  radius: 0.35,
+};
+export const ISLAND_BOUNDS = {
+  minX: -ISLAND.width / 2 - ISLAND.radius,
+  maxX: ISLAND.width / 2 + ISLAND.radius,
+  minZ: ISLAND.z - ISLAND.depth / 2 - ISLAND.radius,
+  maxZ: ISLAND.z + ISLAND.depth / 2 + ISLAND.radius,
+};
+// All pieces remain inside the closed cover; coordinates are local to the island centre.
+export const PRODUCT_LAYOUT = [
+  {
+    id: "tote",
+    product: 0,
+    position: [-1.32, 0.84, -0.35],
+    size: [0.95, 1.05, 0.18],
+    kind: "bag",
+  },
+  {
+    id: "cup",
+    product: 4,
+    position: [-0.94, 0.84, 0.35],
+    size: [0.3, 0.42, 0.3],
+    kind: "cup",
+  },
+  {
+    id: "cushion",
+    product: 2,
+    position: [1.25, 0.84, -0.35],
+    size: [1.02, 0.91, 0.3],
+    kind: "cushion",
+  },
+  {
+    id: "phone",
+    product: 1,
+    position: [1.52, 0.84, 0.35],
+    size: [0.3, 0.57, 0.06],
+    kind: "phone",
+  },
+  {
+    id: "doll-front",
+    product: 3,
+    position: [-0.32, 1.27, -0.38],
+    size: [0.42, 0.65, 0.22],
+    kind: "doll",
+  },
+  {
+    id: "doll-back",
+    product: 3,
+    position: [0.32, 1.31, -0.38],
+    size: [0.39, 0.62, 0.22],
+    kind: "doll",
+  },
+  {
+    id: "umbrella",
+    product: 5,
+    position: [-0.72, 0.84, 0.87],
+    size: [1.45, 0.25, 0.25],
+    kind: "umbrella",
+  },
+  {
+    id: "mask",
+    product: 6,
+    position: [0.76, 0.84, 0.85],
+    size: [0.92, 0.28, 0.12],
+    kind: "mask",
+  },
+  {
+    id: "sticker-left",
+    product: 7,
+    position: [-1.7, 0.835, 0.81],
+    size: [0.26, 0.015, 0.24],
+    kind: "badge",
+  },
+  {
+    id: "sticker-centre",
+    product: 7,
+    position: [0.08, 0.835, 1],
+    size: [0.23, 0.015, 0.21],
+    kind: "badge",
+  },
+  {
+    id: "sticker-right",
+    product: 7,
+    position: [1.7, 0.835, 0.88],
+    size: [0.27, 0.015, 0.24],
+    kind: "badge",
+  },
+  {
+    id: "sticker-front",
+    product: 7,
+    position: [1.18, 0.835, 1.05],
+    size: [0.18, 0.015, 0.17],
+    kind: "badge",
+  },
+] as const;
