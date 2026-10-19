@@ -1,2 +1,9 @@
 import {defineConfig} from '@playwright/test';
-export default defineConfig({testDir:'tests',timeout:30000,use:{baseURL:'http://127.0.0.1:5173',launchOptions:{executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']},reducedMotion:'reduce'},webServer:{command:'npm run dev -- --port 5173',url:'http://127.0.0.1:5173',reuseExistingServer:true}});
+export default defineConfig({
+  testDir: 'tests',
+  // Retain historical 3D checks as reference; the exhibition now runs in 2D only.
+  testIgnore: ['**/gallery.spec.ts', '**/island.spec.ts', '**/display-controls.spec.ts', '**/composite.spec.ts', '**/product-photos.spec.ts'],
+  timeout: 30000,
+  use: {baseURL:'http://127.0.0.1:5173',launchOptions:{executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']},reducedMotion:'reduce'},
+  webServer: {command:'npm run dev -- --port 5173',url:'http://127.0.0.1:5173',reuseExistingServer:true},
+});

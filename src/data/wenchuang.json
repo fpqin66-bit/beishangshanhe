@@ -1,0 +1,369 @@
+[
+  {
+    "id": "tote",
+    "name": "花卉纹帆布袋",
+    "source": "用户提供的文创参考图：中心花卉与几何边饰；传统纹样原始出处、设计作者及授权待核。",
+    "description": "以深色袋面承托中心花卉，边缘以连续几何装饰呼应。将背带视觉语言带入日常收纳；本展作为当代文创设计参考展示，非传统背带复原。",
+    "image": "wenchuan/fanbudai1.webp",
+    "model": "bag",
+    "verified": false,
+    "crop": [
+      0.047554,
+      0.054348,
+      0.3125,
+      0.720109
+    ],
+    "sceneViews": [
+      {
+        "image": "wenchuan/fanbudai1.webp",
+        "crop": [
+          0.245,
+          0.04,
+          0.51,
+          0.9
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [
+          [
+            0.5,
+            0.17
+          ]
+        ],
+        "preserveWhite": [],
+        "backgroundThreshold": 195
+      }
+    ],
+    "photos": [
+      "wenchuan/fanbudai1.webp"
+    ],
+    "detailCrop": null
+  },
+  {
+    "id": "phone",
+    "name": "花卉纹手机壳",
+    "source": "用户提供的文创参考图：中心花卉装饰；纹样原始出处与图像授权待核。",
+    "description": "在深色手机壳上保留一枚花卉视觉中心，以细窄边饰形成上下呼应。以轻量的日用物件延续观展记忆。",
+    "image": "wenchuan/shoujike1.webp",
+    "model": "phone",
+    "verified": false,
+    "crop": [
+      0.425272,
+      0.113225,
+      0.110054,
+      0.255435
+    ],
+    "sceneViews": [
+      {
+        "image": "wenchuan/shoujike1.webp",
+        "crop": [
+          0.421,
+          0.09,
+          0.295,
+          0.815
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [],
+        "preserveWhite": [],
+        "backgroundThreshold": 195
+      }
+    ],
+    "photos": [
+      "wenchuan/shoujike1.webp"
+    ],
+    "detailCrop": null
+  },
+  {
+    "id": "cushion",
+    "name": "锦绣花鸟抱枕",
+    "source": "用户提供的文创参考图：花鸟与卷枝构图；纹样题注、设计作者与授权待核。",
+    "description": "以繁密花鸟图形铺陈抱枕正面，将织绣的层次转化为生活空间中的视觉陪伴。图示材质与实物工艺仍待核对。",
+    "image": "wenchuan/wenchuang1.webp",
+    "model": "cushion",
+    "verified": false,
+    "crop": [
+      0.544837,
+      0.054348,
+      0.3125,
+      0.354167
+    ],
+    "sceneViews": [
+      {
+        "image": "wenchuan/wenchuang1.webp",
+        "crop": [
+          0.55,
+          0.06,
+          0.305,
+          0.345
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [],
+        "preserveWhite": [],
+        "backgroundThreshold": 195
+      }
+    ],
+    "photos": [
+      "wenchuan/wenchuang1.webp"
+    ],
+    "detailCrop": [
+      0.544837,
+      0.054348,
+      0.3125,
+      0.354167
+    ]
+  },
+  {
+    "id": "doll",
+    "name": "花背带娃娃挂件",
+    "source": "用户提供的文创参考图：红衣娃娃与背带装饰；人物服饰、纹样来源及授权待核。",
+    "description": "以小型娃娃挂件连接背带主题与日常陪伴。参考图中的正面与背面可作为同一类文创的不同视角，不据此认定具体传统服饰形制。",
+    "image": "wenchuan/wawa2.webp",
+    "model": "doll",
+    "verified": false,
+    "crop": [
+      0.360054,
+      0.372283,
+      0.19837,
+      0.362319
+    ],
+    "sceneViews": [
+      {
+        "image": "wenchuan/wawa2.webp",
+        "crop": [
+          0,
+          0,
+          0.5,
+          0.84
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [],
+        "preserveWhite": [],
+        "backgroundThreshold": 195
+      },
+      {
+        "image": "wenchuan/wawa2.webp",
+        "crop": [
+          0.5,
+          0,
+          0.5,
+          0.84
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [],
+        "preserveWhite": [],
+        "backgroundThreshold": 195
+      }
+    ],
+    "photos": [
+      "wenchuan/wawa2.webp",
+      "wenchuan/wawa1.webp"
+    ],
+    "detailCrop": null
+  },
+  {
+    "id": "cup",
+    "name": "花语随行杯",
+    "source": "用户提供的文创参考图：中心花卉及环绕边饰；原始图版与授权待核。",
+    "description": "以简洁的杯形承载花卉图案与边框节奏，呈现可以随身携带的观展心意。此处为外观设计展示，不提供材质或产品性能承诺。",
+    "image": "wenchuan/beizi1.webp",
+    "model": "cup",
+    "verified": false,
+    "crop": [
+      0.76087,
+      0.46558,
+      0.116848,
+      0.226449
+    ],
+    "sceneViews": [
+      {
+        "image": "wenchuan/beizi1.webp",
+        "crop": [
+          0.31,
+          0.14,
+          0.39,
+          0.75
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [],
+        "preserveWhite": [
+          [
+            0.16,
+            0.88,
+            0.66,
+            0.1
+          ],
+          [
+            0.08,
+            0.15,
+            0.84,
+            0.08
+          ]
+        ],
+        "backgroundThreshold": 195
+      }
+    ],
+    "photos": [
+      "wenchuan/beizi1.webp"
+    ],
+    "detailCrop": null
+  },
+  {
+    "id": "umbrella",
+    "name": "几何边饰折叠伞",
+    "source": "用户提供的文创参考图：连续几何边饰；纹样原始出处与授权待核。",
+    "description": "参考图以深色折叠伞与暖色几何装饰形成对照，让重复的图形节奏进入出行物件。作为当代应用设计参考展示。",
+    "image": "wenchuan/yusan1.webp",
+    "model": "umbrella",
+    "verified": false,
+    "crop": [
+      0.327446,
+      0.769022,
+      0.344429,
+      0.132246
+    ],
+    "sceneViews": [
+      {
+        "image": "wenchuan/yusan1.webp",
+        "crop": [
+          0.41,
+          0.09,
+          0.21,
+          0.86
+        ],
+        "rotate": 90,
+        "backgroundSeeds": [],
+        "preserveWhite": [],
+        "backgroundThreshold": 145
+      }
+    ],
+    "photos": [
+      "wenchuan/yusan1.webp"
+    ],
+    "detailCrop": null
+  },
+  {
+    "id": "mask",
+    "name": "花鸟纹眼罩",
+    "source": "用户提供的文创参考图：对称花鸟装饰；原始纹样出处、设计作者及授权待核。",
+    "description": "以左右对称的花鸟构图适应眼罩的横向轮廓，在有限空间内保留装饰节奏。此处仅展示外观设计。",
+    "image": "wenchuan/yanzhao1.webp",
+    "model": "mask",
+    "verified": false,
+    "crop": [
+      0.66712,
+      0.700181,
+      0.289402,
+      0.15308
+    ],
+    "sceneViews": [
+      {
+        "image": "wenchuan/yanzhao1.webp",
+        "crop": [
+          0.045,
+          0.24,
+          0.915,
+          0.49
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [
+          [
+            0.5,
+            0.2
+          ]
+        ],
+        "preserveWhite": [],
+        "backgroundThreshold": 195
+      }
+    ],
+    "photos": [
+      "wenchuan/yanzhao1.webp"
+    ],
+    "detailCrop": null
+  },
+  {
+    "id": "badge",
+    "name": "繁花纹样贴饰",
+    "source": "用户提供的文创参考图：独立花形贴饰；纹样出处、材质和授权待核。",
+    "description": "将中心花形提炼为可独立观看的小幅装饰。适合在展柜中组合陈列，表达同一视觉母题在不同尺度上的变化。",
+    "image": "wenchuan/bingxiangtie1.webp",
+    "model": "badge",
+    "verified": false,
+    "crop": [
+      0.085598,
+      0.79529,
+      0.221467,
+      0.130435
+    ],
+    "sceneViews": [
+      {
+        "image": "wenchuan/bingxiangtie1.webp",
+        "crop": [
+          0.14,
+          0.22,
+          0.73,
+          0.59
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [],
+        "preserveWhite": [],
+        "backgroundThreshold": 195
+      },
+      {
+        "image": "wenchuan/bingxiangtie2.webp",
+        "crop": [
+          0.09,
+          0.18,
+          0.82,
+          0.66
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [],
+        "preserveWhite": [],
+        "backgroundThreshold": 195
+      }
+    ],
+    "photos": [
+      "wenchuan/bingxiangtie1.webp",
+      "wenchuan/bingxiangtie2.webp"
+    ],
+    "detailCrop": null
+  },
+  {
+    "id": "tag",
+    "name": "随身文字挂牌",
+    "source": "用户提供的文创参考图：文字挂牌；文字商标、设计作者及使用授权待核。",
+    "description": "参考图中的独立文字挂牌作为日用挂件品类展示，不将其文字标识认定为本项目品牌或传统文化符号。",
+    "image": "wenchuan/wenchuang1.webp",
+    "model": "tag",
+    "verified": false,
+    "crop": [
+      0.876359,
+      0.191123,
+      0.093071,
+      0.306159
+    ],
+    "sceneViews": [
+      {
+        "image": "wenchuan/wenchuang1.webp",
+        "crop": [
+          0.876,
+          0.191,
+          0.093,
+          0.306
+        ],
+        "rotate": 0,
+        "backgroundSeeds": [],
+        "preserveWhite": [],
+        "backgroundThreshold": 195
+      }
+    ],
+    "photos": [
+      "wenchuan/wenchuang1.webp"
+    ],
+    "detailCrop": [
+      0.876359,
+      0.191123,
+      0.093071,
+      0.306159
+    ]
+  }
+]

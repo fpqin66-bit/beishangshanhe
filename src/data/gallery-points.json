@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prologue",
+    "chapter": 0,
+    "title": "序 · 外婆的花背带",
+    "position": [0, 1.6, 3],
+    "target": [-3.5, 1.65, -2],
+    "exhibitPosition": [-3.72, 1.7, -2]
+  },
+  {
+    "id": "carrier",
+    "chapter": 1,
+    "title": "承 · 背上的童年",
+    "position": [0, 1.6, -7],
+    "target": [-3.5, 1.65, -12],
+    "exhibitPosition": [-3.72, 1.7, -12]
+  },
+  {
+    "id": "patterns",
+    "chapter": 2,
+    "title": "纹 · 锦绣里的秘密",
+    "position": [0, 1.6, -17],
+    "target": [-3.5, 1.65, -22],
+    "exhibitPosition": [-3.72, 1.7, -22]
+  },
+  {
+    "id": "stories",
+    "chapter": 3,
+    "title": "灵 · 针线里的回响",
+    "position": [0, 1.6, -27],
+    "target": [-3.5, 1.65, -32],
+    "exhibitPosition": [-3.72, 1.7, -32]
+  },
+  {
+    "id": "blessing",
+    "chapter": 4,
+    "title": "续 · 把祝福带走",
+    "position": [0, 2.95, -37.65],
+    "target": [0, 1.05, -41],
+    "exhibitPosition": [0, 1.4, -41]
+  }
+]
