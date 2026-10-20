@@ -12,3 +12,17 @@
 .card-stage:has(.custom-product-preview){padding:25px 25px 35px}
 @media(max-width:1100px){.custom-product-picker{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:760px){.custom-product-picker{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.custom-product-picker button{padding:9px}.custom-product-preview{min-height:300px}.card-stage:has(.custom-product-preview){padding:20px 10px 25px}}
+.product-photo{width:100%;display:grid;place-items:center;min-height:280px;margin:24px 0;background:#eee9e1;border-radius:4px;overflow:hidden}
+.product-photo canvas{display:block;width:100%;max-height:560px;object-fit:contain}
+.product-photo>span{padding:24px;color:#655043}
+.product-description{font-size:14px;line-height:1.9;color:#bea88d}
+.gift-intro{border-top:1px solid var(--line);margin-top:28px;padding-top:28px}
+.gift-intro>span{color:var(--gold);font-size:11px;letter-spacing:2px}
+.gift-intro p,.gift-actions p{font-size:14px;color:#bea88d;line-height:1.9}
+.gift-card-area{margin-top:48px;padding:40px;border:1px solid var(--line);background:#c6a36a06;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.gift-card{width:100%;max-width:360px;justify-self:center}
+.handwritten{font-family:KaiTi,STKaiti,"Kaiti SC",cursive!important;letter-spacing:.12em;line-height:1.9!important;transform:rotate(-2deg)}
+.gift-actions h3{font-family:serif;font-size:28px;margin:20px 0}
+.gift-actions .export{margin-top:28px}
+.gift-actions .stage-caption{display:block;margin:16px 0}
+@media(max-width:760px){.gift-card-area{grid-template-columns:1fr;padding:24px 16px;gap:30px}.product-photo canvas{max-height:420px}}
