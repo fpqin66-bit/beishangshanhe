@@ -1,6 +1,6 @@
 import {useRef,useState} from 'react';
 import {Download,RotateCcw,Check,ArrowUpRight} from 'lucide-react';
-import {Heading,Ornament,Photo,Modal} from '../components/UI';
+import {Heading,Ornament,Photo,Modal,ReadingNote} from '../components/UI';
 import products from '../data/wenchuang.json';
 import ProductPhoto from '../components/ProductPhoto';
 import '../styles/custom-products.css';
@@ -16,10 +16,10 @@ export default function Blessing({sources}:{sources:()=>void}){
  <div className="custom-product-picker" role="group" aria-label="选择定制物品">{products.map(p=><button key={p.id} aria-label={p.name} aria-pressed={productId===p.id} className={productId===p.id?'selected':''} onClick={()=>{setProductId(p.id);setSaved(false);}}><Photo name={p.image} alt={p.name}/><span>{p.name}</span></button>)}</div>
  <div className="blessing-grid">
  <div className="card-stage"><span className="eyebrow">OBJECTS FOR EVERYDAY POETRY</span><ProductPhoto product={product} color={colors[color].color}/><h3>{product.name}</h3><span className="stage-caption">{colors[color].name} · 实物图片配色预览</span><button className="text-button" onClick={()=>setReference(true)}>查看原始文创图片 <ArrowUpRight size={14}/></button></div>
- <div className="card-tools"><span className="eyebrow">MAKE IT YOURS</span><h3>让心意，有自己的颜色。</h3><p className="product-description">{product.description}</p>
+ <div className="card-tools"><span className="eyebrow">MAKE IT YOURS</span><h3>让心意，有自己的颜色。</h3><ReadingNote title="设计与来源"><p>{product.description}</p><p>{product.source} · verified: {String(product.verified)}</p></ReadingNote>
  <fieldset><legend><b>01</b> 选一方底色</legend><div className="swatches">{colors.map((v,i)=><button key={v.name} onClick={()=>{setColor(i);setSaved(false);}} className={color===i?'selected':''} aria-pressed={color===i}><i style={{background:v.color}}/>{v.name}</button>)}</div></fieldset>
- <p className="tool-note">基于实物照片呈现三种配色，颜色为数字预览，以实物为准。</p>
- <div className="gift-intro"><span>随文创赠送 / A GIFT FOR YOU</span><h3>物有所属，字有所寄。</h3><p>每一件文创，都随赠一张专属祝福卡。你的文字只留在卡片上。</p></div>
+ <span className="color-preview-note">实物照片配色预览 · 点击图片细看</span>
+ <div className="gift-intro"><span>随文创赠送 / A GIFT FOR YOU</span><h3>物有所属，字有所寄。</h3><p>挑一件文创，赠一纸专属祝福。</p></div>
  <fieldset><legend><b>02</b> 为赠卡选一枚纹样</legend><div className="motif-options">{['繁花','相依','山川'].map((v,i)=><button key={v} className={pattern===i?'selected':''} onClick={()=>{setPattern(i);setSaved(false);}} aria-pressed={pattern===i}><Ornament variant={i}/><span>{v}</span></button>)}</div></fieldset>
  <label className="message-label"><span><b>03</b> 在赠卡上留一句祝福 <small>{Array.from(text).length}/20</small></span><input value={text} onChange={e=>{setText(Array.from(e.target.value).slice(0,20).join(''));setSaved(false);}} placeholder="写下你的祝福"/></label></div></div>
  <div className="gift-card-area"><div className="blessing-card gift-card" style={{background:colors[color].color}}><div className="card-border"><small>A LITTLE WISH, JUST FOR YOU</small><h3>背上的山河</h3><div className="card-motif" ref={motif}><Ornament variant={pattern}/></div><p className="handwritten">{text||'愿你所行，皆有繁花'}</p><span>随文创赠予你的一份心意</span></div></div>

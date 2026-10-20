@@ -1,10 +1,13 @@
 import {useEffect,useRef,useState} from 'react';
 import products from '../data/wenchuang.json';
+import {Modal} from './UI';
+import ImageExplorer from './ImageExplorer';
 
 /** Recolour the photograph's dark fabric, keeping coloured embroidery and highlights. */
 export default function ProductPhoto({product,color}:{product:typeof products[number];color:string}){
  const canvas=useRef<HTMLCanvasElement>(null);
  const [status,setStatus]=useState('loading');
+ const [preview,setPreview]=useState('');
  useEffect(()=>{
   let active=true;
   setStatus('loading');
@@ -38,8 +41,9 @@ export default function ProductPhoto({product,color}:{product:typeof products[nu
   return()=>{active=false;};
  },[product,color]);
  return <div className="product-photo" data-status={status}>
-  <canvas ref={canvas} role="img" aria-label={product.name+'实物图片配色预览'} style={{visibility:status==='ready'?'visible':'hidden'}}/>
+  <canvas ref={canvas} role="button" tabIndex={status==='ready'?0:-1} aria-label={'放大查看：'+product.name+'配色预览'} onClick={()=>{if(status==='ready')setPreview(canvas.current!.toDataURL());}} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();if(status==='ready')setPreview(canvas.current!.toDataURL());}}} style={{visibility:status==='ready'?'visible':'hidden'}}/>
   {status==='loading'&&<span>正在加载实物图片…</span>}
   {status==='error'&&<span role="alert">图片加载失败，请刷新页面重试。</span>}
+  {preview&&<Modal title={product.name+' · 配色细节'} onClose={()=>setPreview('')}><ImageExplorer src={preview} alt={product.name}/></Modal>}
  </div>;
 }
